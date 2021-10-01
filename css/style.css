@@ -132,11 +132,17 @@ color: var(--second-text-color)
     color: var(--accent-color);
 }
 /* -----------------------hero---------------------------- */
+
 .hero{
     margin: auto;
     padding-top: 220px;
     padding-bottom: 187px;
     justify-content: center;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../ipg1/Img14.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+
  
 }
 .hero-title {
@@ -145,13 +151,6 @@ margin: auto;
 margin-bottom: 45px;
 }
 
-
-.hero{
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
-    url(../ipg1/Img14.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-}
 .hero-title{
     font-family: Roboto, sans-serif;
 font-style: normal;
@@ -165,6 +164,19 @@ text-transform: uppercase;
 }
 
 /* -------------------------------- Преимущества--------------------------- */
+.features-iten-antenna{
+    width: 70px;
+    height: 70px;
+}
+.features-icon{
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: #f5f4fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .mobile-item{
 
     flex-basis: calc(100% / 3 - 30px);
@@ -267,22 +279,18 @@ letter-spacing: 0.03em;
 /*-------------Кнопка---------------------------- */
 
 .button{
-    width: 136px;
-height: 30px;
-left: 732px;
-top: 440px;
 display: flex;
 justify-content: center;
 align-items: center;
+padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 
 }
 .hero-btn{
     margin: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-   
+    
 }
 .item {
     flex-basis: calc(100% / 5 - 30px);
@@ -308,9 +316,50 @@ letter-spacing: 0.06em;
     background-color: var(--accent-color);
 }
 /* ---------------------------мастера----------------------------------- */
-.masters-title{
+
+.social-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    
+}
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+.social-link:hover,
+ .social-link:focus {
+    background-color: var(--accent-color);
+}
+.social-link:hover .social-icon, 
+.social-link:focus .social-icon {
+    background-color: var(--title--text-color);
+}
+
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    fill: #afb1b8;
+}
+.masters{
+    display: block;
+    padding: 94px 0;
     padding-top: 94px;
+    padding-right: 0px;
     padding-bottom: 94px;
+    padding-left: 0px;
 }
 
 .masters-list {
@@ -318,16 +367,21 @@ letter-spacing: 0.06em;
     flex-wrap: wrap;
     margin-left: -30px;
 }
-.masters-item{
-    flex-basis: calc(100% / 5 - 30px);
-    margin-left: 30px;
-}
+.masters-item {
+        margin-right: 30px;
+        background-color: var(--title--text-color);
+        border-radius: 0px 0px 4px 4px;
+        box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+    }
 .gallery-text-item{
     padding: 30px;
 }
 .masters-item-bottom{
+    padding: 30px 0;
     padding-top: 30px;
+    padding-right: 0px;
     padding-bottom: 30px;
+    padding-left: 0px;;
 
 }
 .masters-item-text{
@@ -365,6 +419,69 @@ text-align: center;
 letter-spacing: 0.03em;
     color: var(--second-text-color);
 }
+/* ---------------Клиенты------------------- */
+
+.clients-section {
+    background-color: var(--title--text-color);
+}
+.section {
+    display: block;
+    padding: 94px 0;
+    box-sizing: border-box;
+}
+
+.clients-title{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--primary-text-color);
+}
+
+.clients-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clients-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clients-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+}
+.clients {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 106px;
+    height: 60px;
+    fill: #afb1b8;
+}
+.clients-link:hover,
+.clients-link:focus {
+    border-color: var(--accent-color);
+}
+.clients-link:hover .clients, 
+.clients-link:focus .clients {
+    fill: var(--accent-color);
+    
+}
+.clients-item + .clients-item {
+    margin-left: 30px;
+}
+
 /* ---------------------------FOOTER------------------------------------ */
 .contacts-title {
     padding-top: 60px;

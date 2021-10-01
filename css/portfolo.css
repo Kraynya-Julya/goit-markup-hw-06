@@ -28,7 +28,7 @@
     .container {
         padding-left: 15px;
     padding-right: 15px;
-    width: 1250px;
+    width: 1200px;
     margin-right: auto;
     margin-left: auto;
 
@@ -69,14 +69,6 @@
 .nav-item:not(:last-child) {
     margin-right: 50px;
   }
-.logo {
-    font-family: Raleway;
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-}
 .logo-item {
     font-family: Raleway, sans-serif;
 font-style: normal;
@@ -86,27 +78,32 @@ line-height: 1.19;
 letter-spacing: 0.03em;
     color: var(--accent-color);
 }
-.logo-right {
+.logo-righr {
     font-family: Raleway, sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
+
 letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
 
 .link-current {
     font-family: Roboto, sans-serif;
+font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
-
+.link-current:hover {
+    color: var(--accent-color);
+}
 .site-nav. link.current {
-    font-family: Roboto, sans-serif;;
+    font-family: Roboto, sans-serif;
+font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -124,16 +121,8 @@ letter-spacing: 0.02em;
 color: var(--second-text-color)
 
 }
-.link-current:hover {
-    color: var(--accent-color);
-}
 
-.link-current-item {
-    font-family: Roboto, sans-serif;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
+ .auth-nav-text:hover{
     color: var(--accent-color);
 }
 
@@ -141,7 +130,7 @@ letter-spacing: 0.02em;
 .button{
     margin: auto;
     padding-top: 93px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 .item{
     display: flex;
@@ -210,7 +199,6 @@ color: var(--primary-text-color);
 /* -------------ПОРТФОЛИО------------------ */
 
 
-
 .gallery-item {
     display: flex;
     flex-wrap: wrap;
@@ -221,9 +209,7 @@ color: var(--primary-text-color);
 .gallery-list{
     display: flex;
     flex-wrap: wrap;
-    width: 370px;
-    height: 404px;
-   flex-basis: calc(100% / 3 -30px);
+   flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-top: 30px;
 
@@ -237,9 +223,11 @@ color: var(--primary-text-color);
 }
 .gallery-text-item{
     margin: auto;
+    padding-bottom: 22px;
 }
 .gallery-text{
     margin: auto;
+
 }
 .gallery-text-item {
     font-family: Roboto, sans-serif;
