@@ -1,0 +1,343 @@
+:root {
+    --primary-text-color: #212121;
+    --title--text-color: #FFFFFF;
+    --accent-color: #2196F3;
+    --primary--bg-color: #ffffff;
+    --second-color: #2F303A;
+    --second-text-color:#757575;
+}
+
+    .page {
+        color: var(--primary-text-color);
+    }
+    .page-list-item {
+        color: var(--primary-text-color);
+      
+    }
+    .logo {
+        color:var(--primary-text-color);
+    }
+    .list {
+        list-style: none;
+    }
+    
+    .link {
+        text-decoration: none;
+    }
+    
+    .container {
+        padding-left: 15px;
+    padding-right: 15px;
+    width: 1250px;
+    margin-right: auto;
+    margin-left: auto;
+
+    }
+    img{
+        display: block;
+    }
+
+    ul{
+        padding: 0px;
+        margin: 0px;
+    }
+/* -----------------LOGO---------------- */
+.logo {
+    margin-right: 90px;
+}
+.site-nav{
+    display: flex;
+}
+
+.header-container{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.header-novigation {
+    display: flex;
+    align-items: center;
+}
+.auth-nav{
+    display: flex;
+    margin-left: auto;
+}
+.header-link {
+    padding-left: 50px;
+}
+.nav-item:not(:last-child) {
+    margin-right: 50px;
+  }
+.logo {
+    font-family: Raleway;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+.logo-item {
+    font-family: Raleway, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+.logo-right {
+    font-family: Raleway, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.link-current {
+    font-family: Roboto, sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.site-nav. link.current {
+    font-family: Roboto, sans-serif;;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+.auth-nav-text {
+    font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14x;
+letter-spacing: 0.02em;
+
+color: var(--second-text-color)
+
+}
+.link-current:hover {
+    color: var(--accent-color);
+}
+
+.link-current-item {
+    font-family: Roboto, sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+    color: var(--accent-color);
+}
+
+/* -------------------- BUTTON----------------- */
+.button{
+    margin: auto;
+    padding-top: 93px;
+    padding-bottom: 50px;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buton-text {
+    flex-basis: calc(100% / 5 - 8px);
+    margin-left: 8px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+.item{
+    padding-bottom: 50px;
+}
+.buton-text-item{
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 6px;
+}
+
+
+.main-button {
+    background-color: var(--primary--bg-color);
+}
+
+
+.button{
+    background-color: var(--primary--bg-color);
+}
+
+.buton-text-item {
+    font-family: Roboto;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+color: var(--title--text-color);
+}
+.buton-text-item {
+    background-color: var(--accent-color);
+}
+.button-item {
+    font-family: Roboto, sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+color: var(--accent-color);
+}
+
+.buton-text {
+    font-family: Roboto, sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+
+
+/* -------------ПОРТФОЛИО------------------ */
+
+
+
+.gallery-item {
+    display: flex;
+    flex-wrap: wrap;
+     margin-left: -30px;
+    margin-top: -30px;
+}
+
+.gallery-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 370px;
+    height: 404px;
+   flex-basis: calc(100% / 3 -30px);
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+.masters-item-bottom{
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+.gallery-text-item{
+    margin: auto;
+}
+.gallery-text{
+    margin: auto;
+}
+.gallery-text-item {
+    font-family: Roboto, sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: var(--second-text-color);
+}
+.gallery-text {
+    font-family: Roboto, sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--primary-text-color);
+}
+
+  
+/* ---------------FOOTER------------------- */
+ul{
+    padding: 0px;
+    margin: 0px;
+    }
+.contacts-title {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.contacts-list {
+    margin: auto;
+}
+.contacts-address{
+    margin-top: 30px;
+}
+.contacts-item-list{
+    margin-top: 9px;
+}
+.contacts-title {
+    font-family: Raleway;
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+color: var(--title--text-color);
+}
+
+.contacts-list-item {
+    font-family: Raleway, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.contacts-list-right {
+    font-family: Raleway, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em; 
+    color: var(--title--text-color);
+}
+.contacts-item-list {
+    font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+    color: var(--title--text-color);
+}
+
+.contacts-item-address {
+    font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+
+
+}
+.contacts-title {
+    background-color: var(--second-color);
+}
+.contacts-link {
+    color: rgba(255, 255, 255, 0.6);;
+}
+.contacts-address, {
+    font-style: none;
+}
+
+.contacts-title {
+    font-style: none;
+}
