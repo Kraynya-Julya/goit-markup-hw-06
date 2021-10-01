@@ -45,6 +45,9 @@
 .logo {
     margin-right: 90px;
 }
+.header {
+    border-bottom: 1px solid #ececec;
+}
 .site-nav{
     display: flex;
 }
@@ -132,6 +135,7 @@ color: var(--second-text-color)
     padding-top: 93px;
     margin-bottom: 50px;
 }
+
 .item{
     display: flex;
     align-items: center;
@@ -145,7 +149,24 @@ color: var(--second-text-color)
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 5px;
+    border: transparent;
+    border-radius: 4px;
+    padding: 6px 22px;
+    background-color: #f5f4fa;
+    
 }
+
+.buton-text:hover .link, 
+.buton-text:focus .link{
+    fill: var(--title--text-color);
+}
+
+.buton-text:hover,
+ .buton-text:focus {
+   background-color: var(--accent-color);
+}
+
+
 .item{
     padding-bottom: 50px;
 }
@@ -154,6 +175,7 @@ color: var(--second-text-color)
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 6px;
+    border-radius: 4px;
 }
 
 
@@ -207,11 +229,12 @@ color: var(--primary-text-color);
 }
 
 .gallery-list{
-    display: flex;
-    flex-wrap: wrap;
-   flex-basis: calc(100% / 3 - 30px);
+    flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-top: 30px;
+    border: 1px solid #ececec;
+    width: 370px;
+    height: 404px;
 
 }
 .masters-item-bottom{
