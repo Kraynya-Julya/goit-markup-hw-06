@@ -48,6 +48,15 @@ img{
     margin-left: auto;
   }
 /* -----------------------------site-nav---------------------- */
+
+
+.contacts-item-icon {
+    fill: currentColor;
+    margin-right: 10px;
+    width: 16px;
+    height: 12px;
+}
+
 .logo {
     margin-right: 90px;
 }
@@ -75,7 +84,8 @@ img{
 .nav-item:not(:last-child) {
     margin-right: 50px;
   }
-.logo-item {
+
+.logo-item, .header-containe {
     font-family: Raleway, sans-serif;
 font-style: normal;
 font-weight: 700;
@@ -286,10 +296,12 @@ padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 32px;
     padding-right: 32px;
+    border-radius: 4px;
 
 }
 .hero-btn{
     margin: auto;
+    
     
 }
 .item {
@@ -422,7 +434,12 @@ letter-spacing: 0.03em;
     color: var(--second-text-color);
 }
 /* ---------------Клиенты------------------- */
-
+.footer-adress {
+    display: flex;
+    flex-direction: column;
+    width: 231px;
+    margin-right: 70px;
+}
 .clients-section {
     background-color: var(--title--text-color);
 }
@@ -485,6 +502,10 @@ color: var(--primary-text-color);
 }
 
 /* ---------------------------FOOTER------------------------------------ */
+.footer-social {
+    display: flex;
+    flex-direction: column;
+}
 .contacts-title {
     padding-top: 60px;
     padding-bottom: 60px;

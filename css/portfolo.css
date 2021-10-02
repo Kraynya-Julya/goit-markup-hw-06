@@ -42,6 +42,14 @@
         margin: 0px;
     }
 /* -----------------LOGO---------------- */
+.contacts-item-icon {
+    fill: currentColor;
+    margin-right: 10px;
+    width: 16px;
+    height: 12px;
+}
+
+
 .logo {
     margin-right: 90px;
 }
@@ -72,7 +80,7 @@
 .nav-item:not(:last-child) {
     margin-right: 50px;
   }
-.logo-item {
+.logo-item, .header-containe {
     font-family: Raleway, sans-serif;
 font-style: normal;
 font-weight: 700;
@@ -142,6 +150,16 @@ color: var(--second-text-color)
     justify-content: center;
 }
 
+.text-button {
+font-weight: 500;
+font-size: 16px;
+line-height: calc(26 / 16);
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary--bg-color);
+cursor: pointer;
+}
+
 .buton-text {
     flex-basis: calc(100% / 5 - 8px);
     margin-left: 8px;
@@ -156,9 +174,9 @@ color: var(--second-text-color)
     
 }
 
-.buton-text:hover .link, 
-.buton-text:focus .link{
-    fill: var(--title--text-color);
+.buton-text:hover, .text-button, 
+.buton-text:focus, .text-button{
+    fill: var(--primary--bg-color);
 }
 
 .buton-text:hover,
@@ -170,7 +188,7 @@ color: var(--second-text-color)
 .item{
     padding-bottom: 50px;
 }
-.buton-text-item{
+.buton-text {
     padding-top: 5px;
     padding-left: 15px;
     padding-right: 15px;
@@ -219,6 +237,16 @@ color: var(--primary-text-color);
 
 
 /* -------------ПОРТФОЛИО------------------ */
+.click {
+    display: inline-block;
+}
+
+.click:hover
+.click:focus {
+    width: 370px;
+  box-sizing: border-box;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 
 
 .gallery-item {
@@ -271,6 +299,34 @@ color: var(--primary-text-color);
 
   
 /* ---------------FOOTER------------------- */
+
+.social-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 145px;
+    height: 16px;
+    left: 516px;
+    top: 2751px;
+    color: var(--primary-title-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.social-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 ul{
     padding: 0px;
     margin: 0px;
